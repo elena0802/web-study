@@ -1,0 +1,17 @@
+* {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #333;
+}
+
+#jumbotron {
+    background-color: #eeeeee;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>간편 영화 후기</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://images.unsplash.com/photo-1612810806563-4cb8265db55f?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                간편 영화 후기
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron" id="jumbotron">
+                <h1 class="display-5">인기/최신 영화에 한마디씩!</h1>
+                <p class="lead">
+                    themoviedb라는 아주 훌륭한 무료 영화 데이터베이스 플랫폼 API를 사용하여 영화 정보를 가져왔습니다.
+                </p>
+                <hr class="my-4">
+                <p>키 값은 임의로 사관학교에서 생성했지만 언제 막힐지 몰라요! 사용량이 정해져 있거든요!</p>
+                <p>따라서 여러분 프로젝트땐, 키를 직접 발급 받아보세요</p>
+                <a class="btn btn-danger btn-md" href="#" role="button">themoviedb로 키발급 받으러가기</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">리뷰 보기</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Modal body text goes here.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
